@@ -1,8 +1,10 @@
+// Copyright 2022 NNTU-CS
 #ifndef INCLUDE_TREE_H_
 #define INCLUDE_TREE_H_
 #include <string>
 #include <vector>
 class Tree {
+ 
  private:
   struct Node {
     char val;
@@ -55,4 +57,4 @@ class Tree {
     perm(root);
   }
 };
-#endif  
+#endif  // INCLUDE_TREE_H_
