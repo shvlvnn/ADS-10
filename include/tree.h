@@ -45,8 +45,8 @@ class Tree {
       perm(root->child[i], num);
     }
   }
- 
- public:
+
+  public:
   std::string operator[](int i) const {
   return nums[i];
   }
