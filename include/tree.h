@@ -46,7 +46,7 @@ class Tree {
     }
   }
  
- public:
+  public:
   std::string operator[](int i) const {
   return nums[i];
   }
