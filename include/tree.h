@@ -4,8 +4,8 @@
 #include <string>
 #include <vector>
 class Tree {
- 
  private:
+ 
   struct Node {
     char val;
     std::vector<Node*> child;
